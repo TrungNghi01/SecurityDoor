@@ -38,7 +38,7 @@ This project is an IoT-based home security solution that uses a Raspberry Pi, mo
         GPIO L1 = 25, L2 = 8, L3 = 7, L4 = 1
              C1 = 12, C2 = 16, C3 = 20, C4 = 21
     - **Servo Motor** GPIO 27
-    **note:** this pin maybe different depend on your raspberry version (the map ahead is raspberry pi 4)
+    - **note:** this pin maybe different depend on your raspberry version (the map ahead is raspberry pi 4)
     ![alt text]({4DAF37A6-DB03-4D1A-B10E-B2B2ED5F88CC}.png)
 
 2. **software setup**
