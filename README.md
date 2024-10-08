@@ -3,7 +3,7 @@ This project is an IoT-based home security solution that uses a Raspberry Pi, mo
 
 ## Features
 - motion dectector triggers the system activation
-- LED and buzzer change bahvior based on user input (welcome, warning, alert)
+- LED and buzzer change bahvior based on user input (welcome, warning, danger, correct password)
 - password access via keypad
 - servo motor controll the door lock
 - automatic picture capture upon access attempt 
