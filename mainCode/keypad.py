@@ -19,6 +19,7 @@ keypadPressed = -1
 
 secretCode = "4789"
 input = ""
+saveInputs = []
 
 # Setup GPIO
 GPIO.setwarnings(False)
