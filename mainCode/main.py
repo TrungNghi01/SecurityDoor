@@ -8,8 +8,8 @@ def welcomeState():
     buzzWelcome()
     return "someone go near the door!!"
 
+print("hello GIT!!")
 # def warningState():
 #     if 
 #     warningColor()
 #     buzzWrong()
-#     return "wrong password"
