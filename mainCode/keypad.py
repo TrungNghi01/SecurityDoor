@@ -17,7 +17,7 @@ C4 = 21
 # being held down or -1 if no key is pressed
 keypadPressed = -1
 
-secretCode = "4789"
+secretCode = "A789"
 input = ""
 saveInputs = []
 
