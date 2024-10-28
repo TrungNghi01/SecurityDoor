@@ -76,9 +76,11 @@ def checkSpecialKeys():
         if input == secretCode:
             print("Code correct!")
             # TODO: Unlock a door, turn a light on, etc.
+            return True
         else:
             print("Incorrect code!")
             # TODO: Sound an alarm, send an email, etc.
+            return False
         pressed = True
 
     GPIO.output(L3, GPIO.LOW)
