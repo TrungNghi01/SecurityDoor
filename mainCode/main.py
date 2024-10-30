@@ -9,7 +9,7 @@ def setup():
     welcomeColor()
     sleep(1)
 
-welcomeState()
+
 # def loop():
     # welcomeState()
     # if (checkSpecialKeys == True):
@@ -29,6 +29,8 @@ def welcomeState():
     welcomeColor()
     buzzWelcome()
     return "someone go near the door!!"
+
+welcomeState()
 
 # def warningState():
 #     warningColor()
