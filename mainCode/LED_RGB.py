@@ -6,6 +6,7 @@ my_led = RGBLED(red=13, green=19, blue=26)
 # when visitor go near the door
 def welcomeColor():
     my_led.color = (1, 1, 1)  # white color 
+    print("Welcome to the door")
 
 # when visitor input the wrong password in the first 4 times
 def warningColor():
