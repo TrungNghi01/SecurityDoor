@@ -1,15 +1,20 @@
 from LED_RGB import welcomeColor, warningColor, dangerColor, CorrectColor
 from buzzer import buzzWelcome, buzzCorrect, buzzWrong, buzzDanger
-#from servoMotor import open_door, close_door
+from servoMotor import open_door, close_door
 #from keypad import checkSpecialKeys, readLine
 from time import sleep
 
 def setup():
     print("Setting up the system")
-    welcomeColor()
+    welcomeState()
     sleep(1)
+    warningState()
+    sleep(1)
+    correctState()
+    sleep(1)
+    dangerState()
 
-
+setup()
 # def loop():
     # welcomeState()
     # if (checkSpecialKeys == True):
@@ -26,27 +31,29 @@ def setup():
 
 
 def welcomeState():
+    print("welcomeState")
     welcomeColor()
     buzzWelcome()
-    return "someone go near the door!!"
 
-welcomeState()
 
-# def warningState():
-#     warningColor()
-#     buzzWrong()
-#     return "someone is trying to open the door!!"
+def warningState():
+    print("warningState")
+    warningColor()
+    buzzWrong()
 
-# def correctState():
-#     CorrectColor()
-#     buzzCorrect()
-#     open_door()
-#     sleep(5)
-#     close_door()
-#     return "Door is open"
 
-# def dangerState():
-#     dangerColor()
-#     buzzDanger()
-#     return "someone is trying to open the door!!"
+def correctState():
+    print("correctState")
+    CorrectColor()
+    buzzCorrect()
+    open_door()
+    sleep(5)
+    close_door()
+
+
+def dangerState():
+    print("dangerState")
+    dangerColor()
+    buzzDanger()
+
 
