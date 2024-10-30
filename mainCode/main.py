@@ -14,7 +14,7 @@ def setup():
     sleep(1)
     dangerState()
 
-setup()
+
 # def loop():
     # welcomeState()
     # if (checkSpecialKeys == True):
@@ -56,4 +56,4 @@ def dangerState():
     dangerColor()
     buzzDanger()
 
-
+setup()
